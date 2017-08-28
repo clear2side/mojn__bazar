@@ -1,0 +1,144 @@
+@media screen and (max-width: 1200px) {
+  /*desktop*/
+}
+
+@media screen and (max-width: 992px) {
+  /*laptop*/
+  .nav__item {
+    margin: 0 50px;
+  }
+  .header__menu {
+    width: 150px;
+  }
+  .header__search {
+    width: 50%;
+  }
+  .menu {
+    text-align: right;
+  }
+  .menu__item {
+    display: none;
+  }
+  .menu__item.current {
+    display: inline-block;
+  }
+  #menu__link-icon_menu {
+    display: inline-block;
+  }
+  #menu__link-icon_basket {
+    display: none;
+  }
+    .product__desc-title {
+    font-size: 22px;
+  }
+  .title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 815px) {
+  .nav__item {
+    margin: 0 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  /*tablets*/
+  .nav__item {
+    margin: 0 25px;
+  }
+  .sidebar {
+    float: none;
+    width: 100%;
+  }
+  .content {
+    float:none;
+    width: 100%;
+  }
+  .product__desc-title {
+    font-size: 20px;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .pagination__link {
+    padding: 0 5px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .nav__item {
+    margin: 0 13px;
+  }
+  .product__price {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    right: 0; 
+  }
+  .product__price-inner {
+    border: none;
+  }
+  .product__desc {
+    width: 70%;
+  }
+  .product__price-submit, .product__price-value {
+    position: relative;
+    display: inline-block;
+  }
+  .product__price-submit {
+    float:right;
+    width: 100px;
+  }
+  .product__price-value {
+    margin-left: 30%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search__button-form {
+    display: inline-block;
+    float: right;
+  }
+  .search__form {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 583px) {
+  .nav__item {
+    margin: 0 10px;
+  }
+  .nav__item .nav__title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  /*phones*/
+  .search__button-form {
+    display: none;
+  }
+  .header__search {
+    width: 0;
+  }
+  .product__slideshow {
+    float: none;
+    width: 100%;
+  }
+  .product__price-value {
+    margin-left: 0;
+  }
+  .product__price-submit {
+    width: 100px;
+  }
+  .product__desc {
+    width: 100%
+  }
+  .pagination__link {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .nav__item {
+    margin: 0 0px;
+  }
+}
